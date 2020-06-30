@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginBottom="8dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imag"-->
+<!--                android:layout_width="136dp"-->
+<!--                android:layout_height="105dp"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:layout_alignParentBottom="true"-->
+<!--                android:layout_marginEnd="-1dp"-->
+<!--                android:layout_marginRight="-1dp"-->
+<!--                android:layout_marginBottom="4dp"-->
+<!--                android:background="@android:color/black"-->
+<!--                android:scaleType="centerCrop" />-->
+
+        <TextView
+            android:id="@+id/nam"
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="center"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="146dp"
+            android:gravity="center"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollHorizontally="false"
+            android:text="@string/zaika_menu"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="30sp"
+            android:verticalScrollbarPosition="right" />
+
+        <TextView
+            android:id="@+id/pric"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="101dp"
+            android:layout_marginRight="101dp"
+            android:layout_marginBottom="59dp"
+            android:gravity="center"
+            android:paddingLeft="-43dp"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollHorizontally="false"
+            android:text="@string/zaika_menu"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            android:verticalScrollbarPosition="right" />
+
+        <TextView
+            android:id="@+id/qu"
+            android:layout_width="102dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="105dp"
+            android:layout_marginRight="105dp"
+            android:layout_marginBottom="84dp"
+            android:gravity="center"
+            android:paddingLeft="-60dp"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollHorizontally="false"
+            android:text="@string/zaika_menu"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            android:verticalScrollbarPosition="right" />
+
+        <TextView
+            android:id="@+id/des"
+            android:layout_width="108dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="102dp"
+            android:layout_marginRight="102dp"
+            android:layout_marginBottom="114dp"
+            android:gravity="center"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollHorizontally="false"
+            android:text="@string/zaika_menu"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            android:verticalScrollbarPosition="right" />
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true">
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginBottom="6dp"
+            android:text="@string/order_now" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="112dp"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="37dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="57dp"
+            android:text="Description:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="73dp"
+            android:layout_height="29dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="91dp"
+            android:text="Quantity:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="72dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginBottom="50dp"
+            android:text="Price:"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
